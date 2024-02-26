@@ -18,8 +18,6 @@ constant: CLIENT {
   export: override_required
 }
 
-
-
 #############################
 # Additional Constants used for formatting and other logic
 #{
