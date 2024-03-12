@@ -41,7 +41,7 @@
     listen:
       Year: sales_orders.creation_date_erdat_date
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -74,7 +74,7 @@
     listen:
       Year: sales_orders.creation_date_erdat_date
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -106,7 +106,7 @@
     listen:
       Year: sales_orders.creation_date_erdat_date
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -167,7 +167,7 @@
     listen:
       Year: sales_orders.creation_date_erdat_date
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -200,7 +200,7 @@
     listen:
       Year: sales_orders.creation_date_erdat_date
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -232,7 +232,7 @@
     listen:
       Year: sales_orders.creation_date_erdat_date
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
