@@ -111,7 +111,7 @@
     model: cortex_sap_operational
     explore: sales_orders
     type: single_value
-    fields: [sales_orders.count_orders]
+    fields: [sales_orders.count]
     limit: 500
     column_limit: 50
     custom_color_enabled: true
@@ -212,7 +212,7 @@
       Year: sales_orders.creation_date_erdat_date
       " Order Status": sales_orders.sales_order_status
       Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -258,7 +258,7 @@
   - name: Year
     title: Year
     type: field_filter
-    default_value: 2022/01/01 to 2022/04/22
+    default_value: 2022/01/10 to 2022/01/11
     allow_multiple_values: true
     required: false
     ui_config:
@@ -272,7 +272,7 @@
   - name: Currency
     title: Currency
     type: field_filter
-    default_value: USD
+    default_value: COP
     allow_multiple_values: true
     required: true
     ui_config:
