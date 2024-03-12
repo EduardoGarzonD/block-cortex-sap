@@ -47,7 +47,7 @@
     y_axes: []
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -79,7 +79,7 @@
     y_axes: []
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -111,7 +111,7 @@
     y_axes: []
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -152,7 +152,7 @@
     y_axes: []
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -219,7 +219,7 @@
     hidden_fields: []
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -285,7 +285,7 @@
       deliveries.count_otif, deliveries.count_of_deliveries]
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
@@ -316,7 +316,7 @@
     defaults_version: 1
     listen:
       Year: sales_orders.creation_date_erdat_date
-      Currency: currency_conversion_new.tcurr
+      Currency: sales_orders.currency_waerk
       Region: countries_md.country_name_landx
       Sales Org: sales_organizations_md.sales_org_name_vtext
       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
