@@ -2004,7 +2004,7 @@ view: sales_orders {
   ##################################################### Canceled Orders  ############################################################
   dimension: canceled_order {
     type: string
-    sql: IF(${rejection_reason_abgru} IS NOT NULL,'Canceled','NotCanceled') ;;
+    sql: IF(${rejection_reason_abgru} <> '' ,'Canceled','NotCanceled') ;;
     hidden: no
   }
 
