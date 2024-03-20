@@ -151,7 +151,7 @@
       sales_orders.max_bill_to_party_name]
     filters: {}
     sorts: [sales_orders.creation_date_erdat_date desc]
-    limit: 500
+    limit: 5000
     column_limit: 50
     show_view_names: false
     show_row_numbers: true
